@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FestWithin</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="status_available">Available</string>
+    <string name="status_full">Fully Booked</string>
+    <string name="status_unknown">No Data</string>
+    <string name="infowindow_strutil_in">In </string>
+    <string name="infowindow_strutil_pricestarts">Ticket starts from </string>
+    <string name="btn_view_details">Tap to view details</string>
+    <string name="event_details_template">Event details will be displayed here</string>
+    <string name="loading_first">Initializing</string>
+    <string name="title_activity_popular_list">PopularListActivity</string>
+    <string name="tab_text_1">Near You</string>
+    <string name="tab_text_2">Country</string>
+    <string name="tab_text_3">Global</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="johndoe_example_com">johndoe@example.com</string>
+    <string name="john_doe">John Doe</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login Register -->
+    <string name="register">Register</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="register2">Register</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="unspecified">Unspecified</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="leku_title_activity_location_picker">Location Picker</string>
+    <string name="leku_load_location_error">Something went wrong. Please try again.</string>
+    <string name="leku_no_search_results">No results found</string>
+    <string name="leku_unknown_location">Unknown Location</string>
+    <string name="leku_voice_search_promp">Search by Voice</string>
+    <string name="leku_voice_search_extra_language">en-EN</string>
+    <string name="leku_toolbar_action_voice_title">Voice</string>
+    <string name="leku_search_hint">Search</string>
+    <string name="desc_template">Event Description here. This is a text which describe the event details. Put text here as much as you can. Event Description here. This is a text which describe the event details. Put text here as much as you can. Event Description here. This is a text which describe the event details. Put text here as much as you can.</string>
+    <string name="event_title">EVENT TITLE</string>
+    <string name="inbound">Inbound</string>
+    <string name="outbound">Outbound</string>
+    <string name="transactions">Transactions</string>
+    <string name="change_wallet_currency">Change Wallet Currency</string>
+    <string name="change">Change</string>
+    <string name="your_wallet_balance">Your wallet balance</string>
+    <string name="no_wallet">You don\'t have a wallet yet</string>
+    <string name="pay_faster_festwallet">Pay faster using FestWallet!</string>
+    <string name="setup_wallet">Setup Wallet</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="no_transaction">No transaction found</string>
+    <string name="my_tickets">My Tickets</string>
+</resources>

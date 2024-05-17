@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardshape"
+    android:backgroundTint="@color/white"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/trans_datetime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="2022/04/25 - 19:38:05"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/dest_holdername"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="to John Doe"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/trans_amount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="350000.00"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="4dp"
+            />
+
+        <Button
+            android:id="@+id/trans_direction"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:text="PAID"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:backgroundTint="@color/black_b3"
+            android:padding="2dp"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

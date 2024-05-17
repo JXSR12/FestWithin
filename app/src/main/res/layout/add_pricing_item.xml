@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cardshape"
+    android:backgroundTint="@color/leku_mid_gray"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <EditText
+            android:id="@+id/addEPClassName"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:textColor="@color/black_b2"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/addEPPrice"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:hint="Price (CUR)"
+            android:textStyle="bold"
+            android:textColor="@color/black_b2"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/addEPStock"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="Stock"
+            android:textStyle="bold"
+            android:textColor="@color/black_b2"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/addEPAddMore"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="8sp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/logo_red"
+            android:drawableEnd="@drawable/ic_baseline_add_24"
+            android:drawableTint="@color/white"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

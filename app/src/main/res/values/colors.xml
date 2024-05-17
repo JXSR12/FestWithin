@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_b1">#FF222222</color>
+    <color name="black_b2">#FF333333</color>
+    <color name="black_b3">#FF444444</color>
+    <color name="black_trans">#88444444</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="available">#FF118211</color>
+    <color name="fullbooked">#FF821111</color>
+    <color name="unknown">#FFCC9911</color>
+    <color name="logo_teal">#FF39EDC7</color>
+    <color name="logo_red">#FFE45353</color>
+    <color name="logo_red_99">#99E45353</color>
+    <color name="logo_red_66">#66E45353</color>
+    <color name="app_lightgray">#FFCCCCCC</color>
+    <color name="darkerwhite">#FFDDDDDD</color>
+    <color name="leku_mid_gray">#FF777777</color>
+    <color name="leku_soft_gray">#FFBBBBBB</color>
+
+
+
+    <!-- Login Register -->
+    <color name="colorPrimary">@color/logo_teal</color>
+    <color name="colorPrimaryDark">@color/teal_700</color>
+    <color name="colorAccent">@color/logo_red</color>
+    <color name="whiteTextColor">@color/white</color>
+    <color name="primaryTextColor">@color/black</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="whiteCardColor">#fff</color>
+</resources>

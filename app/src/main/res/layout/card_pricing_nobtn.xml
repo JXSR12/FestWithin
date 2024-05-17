@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardshape"
+    android:backgroundTint="@color/leku_mid_gray"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/ep_nb_classname"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Regular Ticket"
+            android:textSize="18sp"
+            android:textColor="@color/black_b2"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/ep_nb_pricetext"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="IDR 350000"
+            android:textStyle="bold"
+            android:textColor="@color/black_b2"
+            android:textSize="16dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/ep_nb_slots"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="158 slots"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/logo_red"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

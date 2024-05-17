@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardshape"
+    android:backgroundTint="@color/white"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/ticket_eventName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Fishing Festival 2023"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/ticket_className"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="FisherPro+"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/ticket_Identifier"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="060af7e0e4bf"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:padding="4dp"
+            />
+
+        <Button
+            android:id="@+id/ticket_viewDetailsBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black_b3"
+            android:layout_weight="1.5"
+            android:text="VIEW"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:backgroundTint="@color/logo_teal"
+            android:padding="2dp"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
